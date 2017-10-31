@@ -8,6 +8,6 @@ function repeat(operation, num) {
 
 module.exports = repeat
 
-funtion timeOut () {
-	
-}()
+setTimeout(function(){
+	console.log('Time is out')
+}, 100);
