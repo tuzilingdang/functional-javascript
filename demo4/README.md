@@ -1,46 +1,41 @@
- Basic: Filter
- Exercise 4 of 18
+ 
+#  Filter函数
 
 
-# Task
+# 任务
 
-Use Array#filter to write a function called getShortMessages.
+使用 Array#filter 实现一个名为getShortMessages的函数。
 
-getShortMessages takes an array of objects with '.message' properties and returns an array of messages that are less than < 50 characters long.
+getShortMessages的入参是一个包含一系列对象的数组，对象有'.message' 属性，函数需要返回一个包含所有message < 50 个字的对象的数组。 
 
-The function should return an array containing the messages themselves, without their containing object.
 
-## Arguments
+## 参数
 
-  * messages: an Array of 10 to 100 random objects that look something like this:
+  * messages: 包含了10～100个对象的数组，对象类似:
 
     {
       message: 'Esse id amet quis eu esse aute officia ipsum.' // random
     }
 
-## Conditions
+## 要求
 
-  * Do not use any for/while loops or Array#forEach.
-  * Do not create any unnecessary functions e.g. helpers.
+  * 不使用任何 for/while 循环或 Array#forEach 函数.
 
-## Hint
 
-  * Try chaining some Array methods!
-
-## Example
+## 例子
 
     [ 'Tempor quis esse consequat sunt ea eiusmod.',
       'Id culpa ad proident ad nulla laborum incididunt.',
       'Ullamco in ea et ad anim anim ullamco est.',
       'Est ut irure irure nisi.' ]
 
-## Resources
+## 资料
 
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-## Boilerplate
-
+## 需改造的函数
+ 
     function getShortMessages(messages) {
       // SOLUTION GOES HERE
     }
