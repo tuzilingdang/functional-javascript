@@ -1,10 +1,8 @@
- Basic: Map
- Exercise 3 of 18
+ # Map函数
 
+## 任务
 
-# Task
-
-Convert the following code from a for-loop to Array#map:
+把下述 for-loop 循环改成使用 Array#map函数:
 
     function doubleAll(numbers) {
       var result = []
@@ -16,21 +14,20 @@ Convert the following code from a for-loop to Array#map:
 
     module.exports = doubleAll
 
-## Arguments
+## 参数
 
-  * numbers: An Array of 0 to 20 Integers between 0 and 9
+  * numbers: An Array of 0 to 20 Integers between 0 and 9 一个包含0～20个整数的数组，每个数的大小在0～9之间
 
-## Conditions
+## 要求
 
-  * Your solution should use Array.prototype.map()
-  * Do not use any for/while loops or Array.prototype.forEach.
-  * Do not create any unnecessary functions e.g. helpers.
+  * 使用 Array.prototype.map()
+  * 不能使用 for/while 循环或 Array.prototype.forEach.
 
-## Resources
+## 参考资料
 
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-## Boilerplate
+## 待实现的函数
 
     function doubleAll(numbers) {
       // SOLUTION GOES HERE

@@ -2,7 +2,7 @@
 #  Filter函数
 
 
-# 任务
+## 任务
 
 使用 Array#filter 实现一个名为getShortMessages的函数。
 
@@ -34,7 +34,7 @@ getShortMessages的入参是一个包含一系列对象的数组，对象有'.me
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-## 需改造的函数
+## 待实现的函数
  
     function getShortMessages(messages) {
       // SOLUTION GOES HERE

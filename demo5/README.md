@@ -1,6 +1,6 @@
- Every Some 函数
+ # Every Some 函数
 
-# 任务
+## 任务
 返回一个这样的函数：入参是一个用户数组checkUsers，如果所有的数组内的用户都在原始数组goodUsers存在，那么返回一个return为true的函数。
 
 ## 例子
@@ -39,7 +39,7 @@
   * 不使用任何 for/while 循环或 Array#forEach 函数.
   * 不要产生多余的无用函数
 
-## 资料
+## 参考资料
 
   * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/every
   * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/some

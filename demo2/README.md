@@ -1,11 +1,12 @@
 ───────────────────────────────
- Higher Order Functions
- Exercise 2 of 18
+# 高阶函数
 
-A higher-order function is a function that does at least one of the following:
+## 定义
 
-  * Take one or more functions as an input
-  * Output a function
+一个高阶函数至少满足以下其中一个要求：
+
+  * 至少一个入参是函数
+  * 返回的值是一个函数
 
 All other functions are first order functions. [1]
 
