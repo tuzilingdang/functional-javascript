@@ -1,14 +1,9 @@
- Basic: Every Some
- Exercise 5 of 18
+ Every Some 函数
 
+# 任务
+返回一个这样的函数：入参是一个用户数组checkUsers，如果所有的数组内的用户都在原始数组goodUsers存在，那么返回一个return为true的函数。
 
-# Task
-
-Return a function that takes a list of valid users, and returns a function that returns true if all of the supplied users exist in the original list of users.
-
-You only need to check that the ids match.
-
-## Example
+## 例子
 
     var goodUsers = [
       { id: 1 },
@@ -32,23 +27,25 @@ You only need to check that the ids match.
     ])
     // => false
 
-## Arguments
+## 参数
 
-  * goodUsers: a list of valid users
+  * goodUsers: 一个用户数组
 
-Use array#some and Array#every to check every user passed to your returned function exists in the array passed to the exported function.
+方法一：使用数组函数Array#some 和 Array#every 来检查传入函数的每个用户是否在传入的原始数组中存在。
+方法二：使用filter函数来实现
 
-## Conditions
+## 要求
 
-  * Do not use any for/while loops or Array#forEach.
-  * Do not create any unnecessary functions e.g. helpers.
+  * 不使用任何 for/while 循环或 Array#forEach 函数.
+  * 不要产生多余的无用函数
 
-## Resources
+## 资料
 
   * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/every
   * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
-## Boilerplate
+## 待实现的函数
 
     function checkUsersValid(goodUsers) {
       return function allUsersValid(submittedUsers) {
