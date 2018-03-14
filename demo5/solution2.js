@@ -11,7 +11,7 @@ function checkUsersValid(goodUsers) {
   return function(checkUsers){
     return checkUsers.every( item => {
           return goodUsers.some( ele => {
-              return ele.id === item.id
+              resolutionturn ele.id === item.id
           }) 
     })
   }
